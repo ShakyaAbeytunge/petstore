@@ -16,6 +16,8 @@ A pet has an id, name, type and age.
 - Maven Installed (version 3.8.1)
 - Docker Installed
 
+---
+
 ### Steps to build and run the application
 
 1. Clone the repository to a prefered location on your local machine.
@@ -84,6 +86,8 @@ _DELETE_
 
 `mvn liberty:stop`
 
+---
+
 ### Steps to run test suite
 
 1. Run the application in dev mode
@@ -94,9 +98,13 @@ _DELETE_
 
 _Press _`enter/return`_ key_ to run the automatic test cases.
 
+---
+
 ### Developing the application in a docker container
 
 `mvn liberty:devc`
+
+---
 
 ### Testing using CURL
 
