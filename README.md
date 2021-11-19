@@ -93,3 +93,25 @@ _DELETE_
 2. Run the test suite
 
 _Press _`enter/return`_ key_ to run the automatic test cases.
+
+### Developing the application in a docker container
+
+`mvn liberty:devc`
+
+### Testing using CURL
+
+#### GET command
+
+`curl -v http://localhost:9080/petstore/pets`
+
+#### POST command
+
+`curl -X POST -d 'id=1&petNname=Browny&petType=Dog&petAge=2' http://localhost:9080/petstore/pets`
+
+#### POST command
+
+`curl -X PUT -d 'id=1&petNname=Browny&petType=Dog&petAge=5' http://localhost:9080/petstore/pets`
+
+#### DELETE command
+
+`curl -X DELETE http://localhost:9080/petstore/pets/{petId}`
