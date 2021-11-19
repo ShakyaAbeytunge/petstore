@@ -18,7 +18,7 @@ A pet has an id, name, type and age.
 
 1. Clone the repository to a prefered location on your local machine.
 
-`git clone https://github.com/ShakyaAbeytunge/petstore` return
+`git clone https://github.com/ShakyaAbeytunge/petstore`\
 `cd petstore`
 
 2. Build your Open Liberty project.
