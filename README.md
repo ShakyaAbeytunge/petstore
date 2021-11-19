@@ -16,6 +16,8 @@ A pet has an id, name, type and age.
 - Maven Installed (version 3.8.1)
 - Docker Installed
 
+### Steps to build and run the application
+
 1. Clone the repository to a prefered location on your local machine.
 
 `git clone https://github.com/ShakyaAbeytunge/petstore`\
@@ -81,3 +83,13 @@ _DELETE_
 4. Stop the server
 
 `mvn liberty:stop`
+
+### Steps to run test suite
+
+1. Run the application in dev mode
+
+`mvn liberty:dev`
+
+2. Run the test suite
+
+_Press _`enter/return`_ key_ to run the automatic test cases.
